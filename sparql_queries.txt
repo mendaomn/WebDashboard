@@ -1,0 +1,8 @@
+//how many places from facebook
+
+select count (?x) as ?asd
+where {
+ ?x a dul:Place .
+ ?x dc:publisher ?pub.
+ FILTER regex(?pub, "http://www.facebook.com")
+}
