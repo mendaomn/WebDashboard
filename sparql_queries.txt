@@ -6,3 +6,4 @@ where {
  ?x dc:publisher ?pub.
  FILTER regex(?pub, "http://www.facebook.com")
 }
+
