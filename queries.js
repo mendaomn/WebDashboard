@@ -1,5 +1,3 @@
-$( document ).ready( countGivenSource );
-
 function countGivenSource() {
     var URL = "http://3cixty.eurecom.fr/sparql?default-graph-uri=&";
     var source = "http://www.facebook.com";
@@ -8,6 +6,6 @@ function countGivenSource() {
     };
     //This query counts places coming from "source"
    $.getJSON(URL, obj, function( data ){
-        $('body').append(data["results"]["bindings"]["0"]["callret-0"]["value"]);
+        $('#count_result').html(data["results"]["bindings"]["0"]["callret-0"]["value"]);
    });   
 }
