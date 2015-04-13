@@ -12,17 +12,23 @@
 	<![endif]-->
 </head>
 <body>
-    <header>
-        <a href="#"><img id="main_logo" src="images/logo.png"></a>
-        <h1>Web Dashboard</h1>
-    </header>
-    <article>
-        <h3>Number of places coming from Facebook</h3>
-        <h3 class="query_result" id="count_result">100</h3>
-    </article>
-    
-    <aside>
-        <a href="#" onclick="countGivenSource()" class="source_container"><img class="source_logo" src="images/fb_logo.jpg"></a>
-    </aside>
+    <div id="wrapper">
+        <header>
+            <a href="#"><img id="main_logo" src="images/logo.png"></a>
+            <h1>Web Dashboard</h1>
+        </header>
+        <div id="content">
+            <article>
+                <h3>Number of places coming from Facebook</h3>
+                <h3 class="query_result" id="count_result">100</h3>
+            </article>
+            <aside>
+                <a href="#" onclick="countGivenSource()" class="source_container"><img class="source_logo" src="images/fb_logo.jpg"></a>
+            </aside>
+        </div>
+        <footer>
+            <h3>Contacts and stuff</h3>
+        </footer>
+    </div>
 </body>
 </html>
