@@ -5,25 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Web Dashboard</title>
     <link rel="stylesheet" type="text/css" href="css/master.css">
+    <link rel="import" href="https://www.polymer-project.org/0.5/components/paper-ripple/paper-ripple.html">
+    <link rel="import" href="http://www.polymer-project.org/components/core-icons/core-icons.html">
+    <link rel="import" href="http://www.polymer-project.org/components/font-roboto/roboto.html">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script type="text/javascript" src="queries.js"></script>
-	<!--[if IE]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+    <script type="text/javascript" src="./js/queries.js"></script>
 </head>
 <body>
     <div id="wrapper">
-        <header>
-            <a href="#"><img id="main_logo" src="images/logo.png"></a>
-            <h1>Web Dashboard</h1>
-        </header>
         <div id="content">
+            <div class="split_left">
+            <header>
+                <h1>3cixty DASHBOARD</h1>
+            </header>
             <article>
-                <h3>Number of places coming from Facebook</h3>
+                <h4>Here it will be displayed the requested figure</h4>
                 <h3 class="query_result" id="count_result">100</h3>
             </article>
+            </div>
             <aside>
-                <a href="#" onclick="countGivenSource()" class="source_container"><img class="source_logo" src="images/fb_logo.jpg"></a>
+                <h2>FILTERS</h2>
+                <h3>Sources</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Yelp</li>
+                    <li>Google Places</li>
+                    <li>Foursquare</li>
+                    <li>ISNART</li>
+                </ul>
+                <h3>Details</h3>
+                <ul>
+                    <li>Name</li>
+                    <li>Address or geometry</li>
+                    <li>Rating</li>
+                    <li>Business type</li>
+                </ul>
+                <div class="button raised grey" onclick="">
+                    <div class="center" fit>RESET</div>
+                    <paper-ripple fit></paper-ripple>
+                </div>
+                <div class="button raised red" onclick="countGivenSource()">
+                    <div class="center" fit>UPDATE</div>
+                    <paper-ripple fit></paper-ripple>
+                </div>
             </aside>
         </div>
         <footer>

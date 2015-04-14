@@ -5,7 +5,8 @@ function countGivenSource() {
         query : "select count (?x) where { ?x a dul:Place . ?x dc:publisher ?pub. FILTER regex(?pub, \""+source+"\")}" 
     };
     //This query counts places coming from "source"
-   $.getJSON(URL, obj, function( data ){
-        $('#count_result').html(data["results"]["bindings"]["0"]["callret-0"]["value"]);
-   });   
+   //$.getJSON(URL, obj, function( data ){
+        //$('#count_result').html(data["results"]["bindings"]["0"]["callret-0"]["value"]);
+   //});   
+    $('#count_result').html(12);
 }
