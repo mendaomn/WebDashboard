@@ -2,13 +2,12 @@ html, body, h1{
     padding: 0;
     margin: 0;
     height: 100%;
-    font-family: RobotoDraft, 'Helvetica Neue', Helvetica, Arial;
 }
 img{ max-width: 100% }
 
 
 .source_logo {
-    width: 100px;
+    width: 50px;
 }
 
 .source_container{
@@ -153,3 +152,15 @@ aside > h2 {
 .query_result {
     font-size: 3em;
 }
+
+html {
+    font-size: 100%;/*IE compatibility*/
+}
+
+body {
+    font-family: RobotoDraft, 'Helvetica Neue', Helvetica, Arial;
+    font-size: 1em; /*base font-size*/
+}
+
+/* added to resize images */
+.thumbnails li img{width: 50px;}
