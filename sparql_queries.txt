@@ -7,3 +7,13 @@ where {
  FILTER regex(?pub, "http://www.facebook.com")
 }
 
+//multiple sources
+
+select count (?x) as ?asd
+where {
+ ?x a dul:Place .
+ ?x dc:publisher ?pub.
+ FILTER regex(?pub, "http://www.lastfm.com")
+ ?x dc:publisher ?pub2.
+ FILTER regex(?pub2, "http://www.eventful.com")
+}

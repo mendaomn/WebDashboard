@@ -31,19 +31,39 @@
                 <h2>FILTERS</h2>
                 <h3>Sources</h3>
                 <select multiple="multiple" class="image-picker show-html">
-                    <option data-img-src="./images/sources_logos/fb.png" value="1">Cute Kitten 1</option>
-                    <option data-img-src="./images/sources_logos/yelp.png" value="2">Cute Kitten 2</option>
-                    <option data-img-src="./images/sources_logos/google.png" value="3">Cute Kitten 3</option>
-                    <option data-img-src="./images/sources_logos/foursquare.png" value="4">Cute Kitten 4</option>
-                    <option data-img-src="./images/sources_logos/isnart.png" value="5">Cute Kitten 5</option>
+                    <option data-img-src="./images/sources_logos/fb.png" value="facebook">Facebook</option>
+                    <option data-img-src="./images/sources_logos/yelp.png" value="yelp">Yelp</option>
+                    <option data-img-src="./images/sources_logos/google.png" value="3">Google Places</option>
+                    <option data-img-src="./images/sources_logos/foursquare.png" value="foursquare">Foursquare</option>
+                    <option data-img-src="./images/sources_logos/isnart.png" value="isnart">ISNART</option>
 </select>
                 <h3>Details</h3>
-                <ul>
-                    <li>Name</li>
-                    <li>Address or geometry</li>
-                    <li>Rating</li>
-                    <li>Business type</li>
-                </ul>
+                <form id="details-form">
+                    <div class="group">      
+                        <input type="text" required>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Name</label>
+                    </div>
+                    <div class="group">      
+                        <input type="text" required>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Address</label>
+                    </div>
+                    <div class="group">      
+                        <input type="text" required>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Rating</label>
+                    </div>
+                    <div class="group">      
+                        <input type="text" required>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Business type</label>
+                    </div>
+                </form>
                 <div class="button raised grey" onclick="">
                     <div class="center" fit>RESET</div>
                     <paper-ripple fit></paper-ripple>
