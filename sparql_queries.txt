@@ -17,3 +17,10 @@ where {
  ?x dc:publisher ?pub2.
  FILTER regex(?pub2, "http://www.eventful.com")
 }
+
+//how many hotels
+select count(?x) as ?hotels
+where {
+ ?x locationOnt:businessType ?t.
+ FILTER regex(?t, "hotel")
+}
