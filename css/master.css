@@ -165,6 +165,14 @@ body {
 /* added to resize images */
 .thumbnails li img{width: 50px;}
 
+/* image-picker animation when selected */
+
+ ul.thumbnails.image_picker_selector li .thumbnail.selected {
+      transition: all 0.3s ease-out; }
+ ul.thumbnails.image_picker_selector li .thumbnail {
+    background: white; 
+    transition: all 0.3s ease-out;}
+
 #details-form {
     margin-bottom: 30px;
 }
