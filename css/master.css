@@ -30,6 +30,7 @@ img{ max-width: 100% }
 aside {
     float: right;
     width: 35%;
+    max-width: 400px;
 }
 
 
