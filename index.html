@@ -40,7 +40,7 @@
                 <h3>Details</h3>
                 <form id="details-form">
                     <div class="group">      
-                        <input type="text" required>
+                        <input id="placename" type="text" required>
                         <span class="highlight"></span>
                         <span class="bar"></span>
                         <label>Name</label>
@@ -64,11 +64,11 @@
                         <label>Business type</label>
                     </div>
                 </form>
-                <div class="button raised grey" onclick="">
+                <div class="button raised grey" onclick="resetFilters()">
                     <div class="center" fit>RESET</div>
                     <paper-ripple fit></paper-ripple>
                 </div>
-                <div class="button raised red" onclick="countGivenBusinessType()">
+                <div class="button raised red" onclick="decideQuery()">
                     <div class="center" fit>UPDATE</div>
                     <paper-ripple fit></paper-ripple>
                 </div>

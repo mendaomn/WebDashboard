@@ -24,3 +24,11 @@ where {
  ?x locationOnt:businessType ?t.
  FILTER regex(?t, "hotel")
 }
+
+//how many places with name "teatro", case insensitive
+select count(?x)
+where {
+ ?x a dul:Place .
+ ?x schema:name ?name.
+ FILTER regex(?name, "teatro", "i")
+}
