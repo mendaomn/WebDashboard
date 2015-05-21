@@ -3,7 +3,8 @@
 
 ## Description
 The goal of this dashboard is displaying statistics about the 3cixty's Knowledge Base, which is used by the [3cixty application](https://www.3cixty.com/) to give visitors of the EXPO 2015 (Milan) information about places to go, events to attend, transportation and so on, by exploiting semantic knowledge coming from social platforms and open data sources.
-The project is carried on in partnership with the 3cixty project and relies on the 3cixty platform and it focuses on giving Knowledge Base's admins useful information and tools in order to better manage and visualise its life cycle.
+The project is carried on in partnership with the 3cixty project and relies on the 3cixty platform; it focuses on giving Knowledge Base's admins useful information and tools in order to better manage and visualise its life cycle.
+
 In particular, the dashboard aims to 
 - display a static analysis of current content of KB
 - give users the possibility to interact with the UI, choosing what to display 
