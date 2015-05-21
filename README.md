@@ -8,7 +8,7 @@ The project is carried on in partnership with the 3cixty project and relies on t
 In particular, the dashboard aims to 
 - display a static analysis of current content of KB
 - give users the possibility to interact with the UI, choosing what to display 
-	e.g - "Show how many places gathered from a given social media are located in a given area of Milan"
+	*e.g - "Show how many places gathered from a given social media are located in a given area of Milan"*
 - launch (or schedule) a data collection process that will feed the KB
 - give users the possibility to configure and monitor such a process
-	e.g. - "Gather data on events from resources A and B and show me what's going on"
+	*e.g. - "Gather data on events from resources A and B and show me what's going on"*
