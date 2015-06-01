@@ -1,0 +1,109 @@
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#map {
+    height: 200px;
+    background: #ccc;
+}
+
+#chart {
+    height: 200px;
+    background: #ccc;
+}
+
+.column {
+    padding: 0 15px;
+}
+
+span {
+    
+}
+
+.green {
+    color: #0f9d58;
+}
+
+#logo {
+    float: left;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.4em;
+}
+
+nav ul li {
+    float: left;
+}
+
+#dash-container {
+    clear: both;
+}
+
+
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1em;
+}
+
+nav ul li{
+    font-size: 1.2em; 
+    padding-left: 50px;
+}
+
+
+
+
+
+#nav-selected {
+    position: relative;
+}
+
+#nav-underline {
+    position: absolute;
+    bottom: 0px;
+    background: #0f9d58;
+    height: 5px;
+    width: 95%;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+
+#3columns {
+    overflow: hidden;
+}
+
+#3columns li {
+    float: left;
+    display: inline;
+    width: 30%;
+}
+     
+#query_result {
+    font-size: 4em;
+}
+
+.list2columns {
+    overflow: hidden;
+}
+
+.list2columns li{
+    float: left;
+    display: inline;
+    width: 50%;
+}
+
+.list3columns {
+    overflow: hidden;
+}
+
+.list3columns li{
+    float: left;
+    display: inline;
+    width: 33%;
+}
